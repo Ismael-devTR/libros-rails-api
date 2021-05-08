@@ -18,6 +18,7 @@ gem 'puma', '~> 5.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+# gem 'capistrano', '~> 3.11'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
@@ -35,6 +36,7 @@ group :development do
   gem 'capistrano', '~> 3.11'
   gem 'capistrano-rails', '~> 1.4'
   gem 'capistrano-passenger', '~> 0.2.0'
+  gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
