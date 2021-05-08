@@ -3,7 +3,7 @@ class Api::V1::BooksController < ApplicationController
     #index 
     def index
         @Books = Book.all
-        json_response("sadasd", true, {books: @Books}, :ok)
+        json_response("Books found!", true, {books: @Books}, :ok)
     end
 
     def show
